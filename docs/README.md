@@ -15,7 +15,7 @@ The intelligent agent classifies each clue by type (fill-in-blank, trivia, wordp
 ## Architecture
 
 ```
-┌──────────────────────────────────────────────── ───┐
+┌───────────────────────────────────────────────────┐
 │                  Crossword Agent                  │
 │  (Clue classification, strategy selection)        │
 ├──────────────┬──────────────┬─────────────────────┤
