@@ -1,0 +1,27 @@
+# Environment
+.env
+venv/
+
+# Data (too large for GitHub)
+data/raw/
+data/processed/
+data/indexes/
+
+# Model files (too large)
+models/sentence_transformer/
+
+# React
+crossword-ui/node_modules/
+crossword-ui/build/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Results (optional, remove this line if you want to track results)
+results/evaluations/
+
+# IDE
+.vscode/
+.idea/

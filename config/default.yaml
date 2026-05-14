@@ -1,0 +1,42 @@
+# ============================================================
+# Crossword Solving Agent — Configuration
+# ============================================================
+# All settings in one place. Change a value here and it
+# updates everywhere in the project.
+# ============================================================
+
+# --- Retrieval ---
+retrieval:
+  index_dir: "data/indexes/v2"          # Active index (1M clues, fits in 8GB RAM)
+  index_dir_full: "data/indexes/v1"     # Full index (6.4M clues, needs 16GB+ RAM)
+  model_name: "models/sentence_transformer"  # Local model path (run scripts/download_model.py first)
+  model_name_hf: "all-MiniLM-L6-v2"    # HuggingFace model ID (fallback)
+  top_k: 50                             # Number of candidates to retrieve per clue
+  confidence_threshold: 0.85            # Below this, also query the LLM
+
+# --- LLM ---
+llm:
+  model: "claude-sonnet-4-6"          # Claude model to use
+  temperature: 0                        # 0 = deterministic, higher = more creative
+  max_tokens: 300                       # Max response length per clue
+  num_candidates: 10                    # How many answers to request per clue
+  max_workers: 10                       # Parallel API calls (respect rate limits)
+
+# --- Solver ---
+solver:
+  max_passes: 3                         # Max re-query passes
+  bp_max_iterations: 15                 # Belief propagation iterations
+  bp_damping: 0.5                       # BP damping factor (0-1, higher = more stable)
+  local_search_steps: 50                # Max swap attempts in local search
+
+# --- Server ---
+server:
+  host: "127.0.0.1"
+  port: 5000
+  debug: false
+
+# --- Paths ---
+paths:
+  puzzles_dir: "puzzles"
+  data_dir: "data"
+  models_dir: "models"

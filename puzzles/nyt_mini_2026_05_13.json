@@ -1,0 +1,73 @@
+{
+  "title": "NYT Mini - May 13, 2026 (Wednesday)",
+  "author": "Sam Ezersky",
+  "grid": [
+    [
+      ".",
+      ".",
+      ".",
+      ".",
+      "#"
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "#",
+      "#",
+      ".",
+      ".",
+      "."
+    ]
+  ],
+  "clues": {
+    "across": {
+      "1": "Sprinter's race",
+      "5": "Statuette awarded at Hollywood's Dolby Theatre",
+      "7": "A la ___",
+      "8": "Word meaning \"details\" or \"glasses\"",
+      "9": "\"What's the reason?\""
+    },
+    "down": {
+      "1": "Google ___",
+      "2": "Immediately",
+      "3": "Twistable piece of hardware",
+      "4": "Devise, as a plan",
+      "6": "Booking service that competes with OpenTable"
+    }
+  },
+  "answers": {
+    "across": {
+      "1": "DASH",
+      "5": "OSCAR",
+      "7": "CARTE",
+      "8": "SPECS",
+      "9": "WHY"
+    },
+    "down": {
+      "1": "DOCS",
+      "2": "ASAP",
+      "3": "SCREW",
+      "4": "HATCH",
+      "6": "RESY"
+    }
+  }
+}

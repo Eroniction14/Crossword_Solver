@@ -1,0 +1,43 @@
+{
+    "title": "NYT Mini - May 7, 2026",
+    "author": "NYT",
+    "grid": [
+        ["#", "#", ".", ".", "."],
+        ["#", ".", ".", ".", "."],
+        [".", ".", ".", ".", "."],
+        [".", ".", ".", ".", "#"],
+        [".", ".", ".", ".", "#"]
+    ],
+    "clues": {
+        "across": {
+            "1": "A-___ (top-quality)",
+            "4": "B-___ (decent grade)",
+            "5": "C-___ (group of execs)",
+            "6": "Fails to be",
+            "7": "Nonbinary pronoun"
+        },
+        "down": {
+            "1": "The center, guards and tackles on an N.F.L. team, for short",
+            "2": "Like the taste of browned butter",
+            "3": "Language suffix",
+            "4": "Helpful label by a door handle",
+            "5": "Get into a lotus pose, perhaps"
+        }
+    },
+    "answers": {
+        "across": {
+            "1": "ONE",
+            "4": "PLUS",
+            "5": "SUITE",
+            "6": "ISNT",
+            "7": "THEY"
+        },
+        "down": {
+            "1": "OLINE",
+            "2": "NUTTY",
+            "3": "ESE",
+            "4": "PUSH",
+            "5": "SIT"
+        }
+    }
+}

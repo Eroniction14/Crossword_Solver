@@ -1,0 +1,73 @@
+{
+  "title": "NYT Mini - May 12, 2026",
+  "author": "NYT",
+  "grid": [
+    [
+      "#",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      ".",
+      "#"
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      "#",
+      "#"
+    ]
+  ],
+  "clues": {
+    "across": {
+      "1": "German for \"Mrs.\"",
+      "5": "Small stall at a mall",
+      "6": "Bring to mind",
+      "7": "Surprised exclamations upon seeing mice",
+      "8": "Dramatic end to a World Cup game, for short"
+    },
+    "down": {
+      "1": "Race that equates to 3.1 miles ... or a hint to one letter's frequent appearance in this grid?",
+      "2": "Chess \"castles\"",
+      "3": "Poses a question to",
+      "4": "Hawaiian stringed instrument, informally",
+      "5": "Not go bad"
+    }
+  },
+  "answers": {
+    "across": {
+      "1": "FRAU",
+      "5": "KIOSK",
+      "6": "EVOKE",
+      "7": "EEKS",
+      "8": "PKS"
+    },
+    "down": {
+      "1": "FIVEK",
+      "2": "ROOKS",
+      "3": "ASKS",
+      "4": "UKE",
+      "5": "KEEP"
+    }
+  }
+}
