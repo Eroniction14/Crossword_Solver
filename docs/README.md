@@ -12,28 +12,20 @@ This system uses a three-machine architecture to solve crossword puzzles:
 
 The intelligent agent classifies each clue by type (fill-in-blank, trivia, wordplay, etc.), selects the optimal solving strategy, and explains its reasoning throughout.
 
-## Results
-
-| Puzzle | Size | Words | Accuracy | Time |
-|---|---|---|---|---|
-| NYT Mini May 7 | 5×5 | 10/10 | 100% | ~12s |
-| NYT Mini May 12 | 5×5 | 10/10 | 100% | ~12s |
-| NYT Monday May 11 | 15×15 | 76/76 | 100% | ~30s |
-
 ## Architecture
 
 ```
-┌─────────────────────────────────────────────────┐
-│                  Crossword Agent                 │
-│  (Clue classification, strategy selection)       │
-├──────────────┬──────────────┬────────────────────┤
-│   FAISS      │   Claude     │   Belief           │
-│   Retrieval  │   LLM        │   Propagation      │
+┌───────────────────────────────────────────────────┐
+│                  Crossword Agent                  │
+│  (Clue classification, strategy selection)        │
+├──────────────┬──────────────┬─────────────────────┤
+│   FAISS      │   Claude     │   Belief            │
+│   Retrieval  │   LLM        │   Propagation       │
 │   (1M clues) │   (parallel) │   (constraint sat.) │
-├──────────────┴──────────────┴────────────────────┤
+├──────────────┴──────────────┴─────────────────────┤
 │              Semantic Verification                │
-│  (Retrieval + LLM scoring of answers)            │
-└─────────────────────────────────────────────────┘
+│  (Retrieval + LLM scoring of answers)             │
+└───────────────────────────────────────────────────┘
 ```
 
 ## Setup
